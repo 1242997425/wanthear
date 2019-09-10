@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body,html,#root{
+  width: 100%;
+  height: 100%;
+}
+.home .nav .active{
+  color: skyblue;
+  border-bottom: 1px solid skyblue;
+}
+.App{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home{
+  width: 100%;
+  flex: 1;
+}
+.home .nav{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  font-size: 16px;
+  line-height: 40px;
+  align-items: center;
+  justify-content: space-around;
+}
+.home .nav a{
+  height: 100%;
+  color: #999;
+  text-decoration: none;
+}
+.header{
+  width: 100%;
+  height: 50px; 
+  display: flex;
+  padding: 0 20px;
+  font-size: 18px;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.header .headdleft{
+  color: #999;
+}
+.header .icon-erji{
+  color: blue;
+}
+.inp{
+  width: 70%;
+  height: 38px;
+  background: rgb(235, 235, 235);
+  overflow: hidden;
+  border-radius: 6px;
+}
+.inp input{
+  width: 100%;
+  height: 100%;
+  text-indent: 20px;
+  outline: none;
+  border: 0;
+  background: rgb(235, 235, 235);
+}
+.remen{
+  width: 100%;
+  height: 577px;
+}
